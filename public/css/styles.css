@@ -1,0 +1,28 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+.navbar {
+    display: flex;
+    justify-content: start;
+    background-color: #000080; /* navy color */
+    /* border-top: 4px solid red; */
+}
+
+.nav-item {
+    color: white;
+    text-decoration: none;
+    padding: 15px 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.nav-item:hover {
+    background-color: #333399; /* dark blue color */
+}
+
+.activo a{
+    background-color: #ba15c9; /* dark blue color */
+}
